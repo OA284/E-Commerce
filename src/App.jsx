@@ -34,6 +34,7 @@ function App() {
       {path:"/Checkout", element:<ProtectedRoute> <Checkout/> </ProtectedRoute>},
       {path:"/allorders", element:<ProtectedRoute> <AllOrders/> </ProtectedRoute>},
       {path:"/wishlist", element:<ProtectedRoute> <WishList/> </ProtectedRoute>},
+      {path:"/register", element:<Register/>},
       {path:"/login", element:<Login/>},
       {path:"/forgetpassword", element:<ForgetPassword/>},
       {path:"/resetpassword", element:<ResetPassword/>},
